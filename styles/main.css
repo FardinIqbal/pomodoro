@@ -1,0 +1,70 @@
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+body{
+    background: white;
+    text-align: center;
+    border: 10px #FF4570 solid;
+}
+header span{
+    display: block;
+    color: white;
+    background-color: #FF4570;
+    font-size: 48px;
+    padding: 20px;
+}
+.state-of-clock span{
+    display: block;
+    font-size:25px;
+    color: white;
+    background-color: #FF4570;
+    width: 25%;
+    padding: 20px;
+    margin: 100px auto 0 auto;
+    border-radius: 10px;
+}
+.time{
+    font-size: 96px;
+    color: #FF4570;
+    margin: 100px auto 0 auto;
+}
+main{
+    font-size:54px;
+    color:#606060;
+    font-weight: bold;
+}
+main .setting{
+    margin-top: 100px;
+}
+main button{
+    border: 0;
+    background-color: white;
+    font-size: 54px;
+    font-weight: bold;
+    margin:0 100px;
+    color: #FF4570;
+}
+nav{
+    background-color:#FF4570;
+    margin: 100px auto 0 auto;
+    max-width: 450px;
+    border-radius: 25px;
+}
+nav ul{
+    white-space: nowrap;
+    padding: 17px;
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+}
+nav img{
+    width: 25px;
+}
+footer p{
+    font-size: 20px;
+    margin-top: 142px;
+    color: #606060;
+}
